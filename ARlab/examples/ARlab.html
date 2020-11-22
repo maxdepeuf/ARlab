@@ -30,7 +30,7 @@
 		alpha: true
 	});
 	renderer.setClearColor(new THREE.Color('lightgrey'), 0)
-	renderer.setPixelRatio( 1 );
+	//renderer.setPixelRatio( 1 );
 	renderer.setSize( window.innerWidth, window.innerHeight );
 	renderer.domElement.style.position = 'absolute'
 	renderer.domElement.style.top = '0px'
@@ -161,6 +161,7 @@
 							loaderOBJ.setMaterials(materials)
 							loaderOBJ.load( './models/obj/FVE/Test.obj', function ( group ) {
 								group.scale.set( 1, 1, 1 );
+								group.material.side = THREE.DoubleSide;
 								group.rotation.set( - Math.PI / 2, 0, - Math.PI );
 								group.position.set( 0.5, 0, -0.5 );
 								arWorldRoot.add(group)
