@@ -160,6 +160,7 @@
 		mesh.rotation.x += 0.1
 	})
 ////////////////////////////////////////////////////////////////////////////////////////////////////
+				
 				const loader = new STLLoader();
 				loader.load( './models/stl/ascii/slotted_disk.stl', function ( geometry ) {
 
@@ -178,7 +179,9 @@
 
 				} );
 /////////////////////////////////////////////////////////////////////////////////////
-								const onProgress = function ( xhr ) {
+									const container = document.createElement( 'div' );
+				document.body.appendChild( container );
+					const onProgress = function ( xhr ) {
 
 					if ( xhr.lengthComputable ) {
 
