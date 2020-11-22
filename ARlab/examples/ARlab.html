@@ -159,11 +159,11 @@
 	})
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////
-				new THREE.MTLLoader();
+				loaderMTL =	new MTLLoader();
 				.setPath('models/obj/FVE/')
 				.load( 'Test.mtl', function ( materials ){
 				materials.preload();
-				new THREE.OBJLoader()
+				loaderOBJ =new HREE.OBJLoader()
 							.setMaterials(materials)
 							.setPath( 'models/obj/FVE/' )
 							.load( 'Test.obj', function ( group ) {
