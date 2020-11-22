@@ -162,24 +162,6 @@
 		mesh.rotation.x += 0.1
 	})
 ////////////////////////////////////////////////////////////////////////////////////////////////////
-				
-				const loader = new STLLoader();
-				loader.load( './models/stl/ascii/slotted_disk.stl', function ( geometry ) {
-
-					const material = new THREE.MeshPhongMaterial( { color: 0xff5533, specular: 0x111111, shininess: 200 } );
-					const mesh = new THREE.Mesh( geometry, material );
-
-					
-					
-					mesh.scale.set( 1, 1, 1 );
-					mesh.rotation.set( 0, - Math.PI / 2, 0 );
-					mesh.position.set( 0.5, -0.5, -0.5 );
-					mesh.castShadow = true;
-					mesh.receiveShadow = true;
-
-					arWorldRoot.add( mesh );
-
-				} );
 /////////////////////////////////////////////////////////////////////////////////////
 				
 				const manager = new THREE.LoadingManager();
@@ -195,7 +177,7 @@
 							loader3.load( 'Test.obj', function ( object ) {
 								object.scale.set( 1, 1, 1 );
 								object.rotation.set( 0, 0, - Math.PI / 2 );
-								object.position.set( 0.5, -0.5, -0.5 );
+								object.position.set( 0, 0, 0 );
 								arWorldRoot.add( object );
 								});
 				});
