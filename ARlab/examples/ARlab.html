@@ -163,6 +163,13 @@
 	})
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////
+								const ambientLight = new THREE.AmbientLight( 0xcccccc, 0.4 );
+				arWorldRoot.add( ambientLight );
+
+				const pointLight = new THREE.PointLight( 0xffffff, 0.8 );
+				camera.add( pointLight );
+				arWorldRoot.add( camera );
+				
 				
 				const manager = new THREE.LoadingManager();
 				manager.addHandler( /\.dds$/i, new DDSLoader() );
