@@ -162,7 +162,7 @@
 				const loaderMTL =	new MTLLoader();
 				loaderMTL.load( './models/obj/FVE/Test.mtl', function ( materials ) {
 				materials.preload();
-				const loaderOBJ =new HREE.OBJLoader();
+				const loaderOBJ =new OBJLoader();
 							loaderOBJ.setMaterials(materials)
 							loaderOBJ.load( './models/obj/FVE/Test.obj', function ( group ) {
 								mesh0 = group.children[0];
