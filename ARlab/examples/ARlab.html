@@ -3,6 +3,9 @@
 <!-- three.js library -->
 <script src='vendor/three.js/build/three.min.js'></script>
 <script src="vendor/three.js/examples/js/libs/stats.min.js"></script>
+<script src='..build/three.js'></script>
+<script src='jsm/loaders/OBJLoader.js'></script>
+<script src='jsm/loaders/MTLLoader.js'></script>
 <!-- ar.js -->
 <script src="../build/ar.js"></script>
 <script>THREEx.ArToolkitContext.baseURL = '../'</script>
@@ -13,11 +16,7 @@
 	<a href='https://libm.univ-st-etienne.fr/fr/index.html' target='_blank'>LIBM Laboratory</a>
 </div>
 <script type="module">
-			import * as THREE from '../build/three.module.js';
-			import { DDSLoader } from './jsm/loaders/DDSLoader.js';
-			import { MTLLoader } from './jsm/loaders/MTLLoader.js';
-			import { OBJLoader } from './jsm/loaders/OBJLoader.js';
-			import { STLLoader } from './jsm/loaders/STLLoader.js';
+
 
 	//////////////////////////////////////////////////////////////////////////////////
 	//		Init
