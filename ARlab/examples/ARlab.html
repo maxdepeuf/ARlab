@@ -16,6 +16,7 @@
 			import { DDSLoader } from './jsm/loaders/DDSLoader.js';
 			import { MTLLoader } from './jsm/loaders/MTLLoader.js';
 			import { OBJLoader } from './jsm/loaders/OBJLoader.js';
+			import { STLLoader } from './jsm/loaders/STLLoader.js';
 	//////////////////////////////////////////////////////////////////////////////////
 	//		Init
 	//////////////////////////////////////////////////////////////////////////////////
@@ -158,6 +159,25 @@
 	onRenderFcts.push(function(){
 		mesh.rotation.x += 0.1
 	})
+////////////////////////////////////////////////////////////////////////////////////////////////////
+				const loader = new STLLoader();
+				loader.load( './models/stl/ascii/slotted_disk.stl', function ( geometry ) {
+
+					const material = new THREE.MeshPhongMaterial( { color: 0xff5533, specular: 0x111111, shininess: 200 } );
+					const mesh = new THREE.Mesh( geometry, material );
+
+					
+					
+					mesh.scale.set( 0.1, 0.1, 0.1 );
+					mesh.rotation.set( 0, - Math.PI / 2, 0 );
+					mesh.position.set( 0.5, -0.5, -0.5 );
+					mesh.castShadow = true;
+					mesh.receiveShadow = true;
+
+					arWorldRoot.add( mesh );
+
+				} );
+/////////////////////////////////////////////////////////////////////////////////////
 
 
 	//////////////////////////////////////////////////////////////////////////////////
