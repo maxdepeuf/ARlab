@@ -167,9 +167,7 @@
 				const loaderOBJ =new OBJLoader();
 							loaderOBJ.setMaterials(materials)
 							loaderOBJ.load( './models/obj/FVE/Test.obj', function ( group ) {
-								group.material.side = THREE.DoubleSide;
-				
-					arWorldRoot.add(group);
+							arWorldRoot.add(group);
 								});
 				});
 /////////////////////////////////////////////////////////////////////////////////////
