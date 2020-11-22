@@ -138,6 +138,7 @@
 		opacity: 0.5,
 		side: THREE.DoubleSide
 	});
+	
 	var mesh	= new THREE.Mesh( geometry, material );
 	mesh.position.y	= geometry.parameters.height/2
 	arWorldRoot.add( mesh );
@@ -160,7 +161,7 @@
 	// render the scene
 	onRenderFcts.push(function(){
 		renderer.render( scene, camera );
-		stats.update();
+		//stats.update();
 	})
 
 	// run the rendering loop
