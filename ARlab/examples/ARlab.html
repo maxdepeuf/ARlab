@@ -17,6 +17,7 @@
 			import { MTLLoader } from './jsm/loaders/MTLLoader.js';
 			import { OBJLoader } from './jsm/loaders/OBJLoader.js';
 			import { STLLoader } from './jsm/loaders/STLLoader.js';
+
 	//////////////////////////////////////////////////////////////////////////////////
 	//		Init
 	//////////////////////////////////////////////////////////////////////////////////
@@ -179,9 +180,11 @@
 
 				} );
 /////////////////////////////////////////////////////////////////////////////////////
-									const container = document.createElement( 'div' );
-				document.body.appendChild( container );
-					const onProgress = function ( xhr ) {
+
+
+				// model
+
+				const onProgress = function ( xhr ) {
 
 					if ( xhr.lengthComputable ) {
 
@@ -191,7 +194,9 @@
 					}
 
 				};
+
 				const onError = function () { };
+
 				const manager = new THREE.LoadingManager();
 				manager.addHandler( /\.dds$/i, new DDSLoader() );
 
@@ -212,11 +217,14 @@
 								object.rotation.set( 0, 0, - Math.PI / 2 );
 								object.rotation.set( - Math.PI / 2, 0, - Math.PI );
 								object.position.set( 0.5, -0.5, -0.5 );
-								arWorldRoot.add( object );
+								scene.add( object );
 
 							}, onProgress, onError );
 
 					} );
+
+				//
+
 				renderer = new THREE.WebGLRenderer();
 				renderer.setPixelRatio( window.devicePixelRatio );
 				renderer.setSize( window.innerWidth, window.innerHeight );
