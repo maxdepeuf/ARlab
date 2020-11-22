@@ -1,0 +1,418 @@
+o pvt
+
+mtllib Test.mtl
+
+v 0 0 0
+v 0 0.1 0
+v 0 0.2 0
+v 0 0.3 0
+v 0 0.4 0
+v 0 0.5 0
+v 0 0.6 0
+v 0 0.7 0
+v 0 0.8 0
+v 0 0.9 0
+v 0 1 0
+v 0.1 0 0.36
+v 0.1 0.1 0.31911
+v 0.1 0.2 0.29307
+v 0.1 0.3 0.27659
+v 0.1 0.4 0.26576
+v 0.1 0.5 0.2584
+v 0.1 0.6 0.25329
+v 0.1 0.7 0.24969
+v 0.1 0.8 0.24714
+v 0.1 0.9 0.24533
+v 0.1 1 0.24405
+v 0.2 0 0.64
+v 0.2 0.1 0.5414
+v 0.2 0.2 0.48351
+v 0.2 0.3 0.45053
+v 0.2 0.4 0.4307
+v 0.2 0.5 0.41796
+v 0.2 0.6 0.40939
+v 0.2 0.7 0.40347
+v 0.2 0.8 0.39932
+v 0.2 0.9 0.39638
+v 0.2 1 0.3943
+v 0.3 0 0.84
+v 0.3 0.1 0.66687
+v 0.3 0.2 0.57133
+v 0.3 0.3 0.52184
+v 0.3 0.4 0.49481
+v 0.3 0.5 0.47868
+v 0.3 0.6 0.46832
+v 0.3 0.7 0.46135
+v 0.3 0.8 0.45653
+v 0.3 0.9 0.45315
+v 0.3 1 0.45076
+v 0.4 0 0.96
+v 0.4 0.1 0.69553
+v 0.4 0.2 0.55652
+v 0.4 0.3 0.4905
+v 0.4 0.4 0.45809
+v 0.4 0.5 0.44056
+v 0.4 0.6 0.43008
+v 0.4 0.7 0.42333
+v 0.4 0.8 0.41878
+v 0.4 0.9 0.41564
+v 0.4 1 0.41343
+v 0.5 0 1
+v 0.5 0.1 0.62738
+v 0.5 0.2 0.43909
+v 0.5 0.3 0.35653
+v 0.5 0.4 0.32054
+v 0.5 0.5 0.30359
+v 0.5 0.6 0.29465
+v 0.5 0.7 0.28941
+v 0.5 0.8 0.28607
+v 0.5 0.9 0.28384
+v 0.5 1 0.2823
+v 0.6 0 0.96
+v 0.6 0.1 0.46241
+v 0.6 0.2 0.21904
+v 0.6 0.3 0.11991
+v 0.6 0.4 0.082171
+v 0.6 0.5 0.067782
+v 0.6 0.6 0.062049
+v 0.6 0.7 0.059578
+v 0.6 0.8 0.058394
+v 0.6 0.9 0.057758
+v 0.6 1 0.057379
+v 0.7 0 0.84
+v 0.7 0.1 0.20062
+v 0.7 0.2 0
+v 0.7 0.3 0
+v 0.7 0.4 0
+v 0.7 0.5 0
+v 0.7 0.6 0
+v 0.7 0.7 0
+v 0.7 0.8 0
+v 0.7 0.9 0
+v 0.7 1 0
+v 0.8 0 0.64
+v 0.8 0.1 0
+v 0.8 0.2 0
+v 0.8 0.3 0
+v 0.8 0.4 0
+v 0.8 0.5 0
+v 0.8 0.6 0
+v 0.8 0.7 0
+v 0.8 0.8 0
+v 0.8 0.9 0
+v 0.8 1 0
+v 0.9 0 0.36
+v 0.9 0.1 0
+v 0.9 0.2 0
+v 0.9 0.3 0
+v 0.9 0.4 0
+v 0.9 0.5 0
+v 0.9 0.6 0
+v 0.9 0.7 0
+v 0.9 0.8 0
+v 0.9 0.9 0
+v 0.9 1 0
+v 1 0 0
+v 1 0.1 0
+v 1 0.2 0
+v 1 0.3 0
+v 1 0.4 0
+v 1 0.5 0
+v 1 0.6 0
+v 1 0.7 0
+v 1 0.8 0
+v 1 0.9 0
+v 1 1 0
+
+usemtl Color_94
+f 17 27 28
+usemtl Color_132
+f 36 37 26
+usemtl Color_114
+f 40 41 30
+usemtl Color_90
+f 14 25 15
+usemtl Color_89
+f 32 21 31
+usemtl Color_134
+f 47 48 37
+usemtl Color_198
+f 57 46 56
+usemtl Color_76
+f 20 31 21
+usemtl Color_147
+f 25 35 36
+usemtl Color_10
+f 70 80 81
+usemtl Color_128
+f 24 13 23
+usemtl Color_27
+f 13 3 2
+usemtl Color_175
+f 68 57 67
+usemtl Color_113
+f 13 12 23
+usemtl Color_165
+f 35 46 36
+usemtl Color_10
+f 74 73 84
+usemtl Color_49
+f 14 15 4
+usemtl Color_122
+f 39 38 49
+usemtl Color_120
+f 37 27 26
+usemtl Color_98
+f 14 13 24
+usemtl Color_98
+f 26 27 16
+usemtl Color_78
+f 18 29 19
+usemtl Color_46
+f 5 15 16
+usemtl Color_22
+f 6 17 7
+usemtl Color_109
+f 29 40 30
+usemtl Color_111
+f 52 53 42
+usemtl Color_106
+f 43 33 32
+usemtl Color_57
+f 61 72 62
+usemtl Color_110
+f 54 43 53
+usemtl Color_104
+f 50 49 60
+usemtl Color_59
+f 70 59 69
+usemtl Color_36
+f 72 73 62
+usemtl Color_54
+f 74 64 63
+usemtl Color_10
+f 74 85 75
+usemtl Color_21
+f 11 10 21
+usemtl Color_11
+f 72 83 73
+usemtl Color_95
+f 54 65 55
+usemtl Color_34
+f 77 66 76
+usemtl Color_5
+f 86 87 76
+usemtl Color_75
+f 69 68 79
+usemtl Color_7
+f 81 82 71
+usemtl Color_31
+f 101 90 100
+usemtl Color_17
+f 79 90 80
+usemtl Color_31
+f 1 12 2
+usemtl Color_144
+f 25 24 35
+usemtl Color_112
+f 25 14 24
+usemtl Color_52
+f 3 13 14
+usemtl Color_58
+f 2 12 13
+usemtl Color_172
+f 24 23 34
+usemtl Color_175
+f 24 34 35
+usemtl Color_211
+f 34 45 35
+usemtl Color_96
+f 68 69 58
+usemtl Color_127
+f 48 47 58
+usemtl Color_227
+f 46 45 56
+usemtl Color_160
+f 47 46 57
+usemtl Color_198
+f 35 45 46
+usemtl Color_221
+f 67 57 56
+usemtl Color_138
+f 58 47 57
+usemtl Color_110
+f 59 48 58
+usemtl Color_156
+f 36 46 47
+usemtl Color_97
+f 60 49 59
+usemtl Color_129
+f 38 37 48
+usemtl Color_91
+f 50 60 61
+usemtl Color_29
+f 70 69 80
+usemtl Color_141
+f 47 37 36
+usemtl Color_124
+f 38 27 37
+usemtl Color_123
+f 48 49 38
+usemtl Color_111
+f 48 59 49
+usemtl Color_79
+f 17 28 18
+usemtl Color_115
+f 27 38 28
+usemtl Color_81
+f 17 16 27
+usemtl Color_85
+f 15 26 16
+usemtl Color_103
+f 25 26 15
+usemtl Color_128
+f 25 36 26
+usemtl Color_25
+f 3 14 4
+usemtl Color_24
+f 4 15 5
+usemtl Color_23
+f 5 16 6
+usemtl Color_44
+f 7 17 18
+usemtl Color_45
+f 6 16 17
+usemtl Color_91
+f 29 30 19
+usemtl Color_112
+f 41 42 31
+usemtl Color_77
+f 20 19 30
+usemtl Color_108
+f 30 41 31
+usemtl Color_22
+f 7 18 8
+usemtl Color_43
+f 18 19 8
+usemtl Color_90
+f 30 31 20
+usemtl Color_21
+f 8 19 9
+usemtl Color_21
+f 9 20 10
+usemtl Color_42
+f 11 21 22
+usemtl Color_42
+f 10 20 21
+usemtl Color_42
+f 9 19 20
+usemtl Color_76
+f 21 32 22
+usemtl Color_107
+f 31 42 32
+usemtl Color_113
+f 53 43 42
+usemtl Color_111
+f 32 42 43
+usemtl Color_88
+f 22 32 33
+usemtl Color_111
+f 33 43 44
+usemtl Color_113
+f 44 43 54
+usemtl Color_114
+f 41 52 42
+usemtl Color_84
+f 65 66 55
+usemtl Color_96
+f 64 54 53
+usemtl Color_109
+f 55 44 54
+usemtl Color_100
+f 51 50 61
+usemtl Color_118
+f 40 39 50
+usemtl Color_92
+f 28 29 18
+usemtl Color_111
+f 28 39 29
+usemtl Color_116
+f 40 51 41
+usemtl Color_55
+f 62 73 63
+usemtl Color_116
+f 29 39 40
+usemtl Color_119
+f 28 38 39
+usemtl Color_98
+f 52 51 62
+usemtl Color_118
+f 39 49 50
+usemtl Color_112
+f 41 51 52
+usemtl Color_114
+f 40 50 51
+usemtl Color_97
+f 52 63 53
+usemtl Color_86
+f 52 62 63
+usemtl Color_5
+f 84 85 74
+usemtl Color_35
+f 73 74 63
+usemtl Color_5
+f 85 86 75
+usemtl Color_85
+f 63 64 53
+usemtl Color_34
+f 75 76 65
+usemtl Color_34
+f 74 75 64
+usemtl Color_53
+f 76 66 65
+usemtl Color_10
+f 86 76 75
+usemtl Color_84
+f 64 65 54
+usemtl Color_54
+f 64 75 65
+usemtl Color_10
+f 87 77 76
+usemtl Color_5
+f 77 87 88
+usemtl Color_88
+f 51 61 62
+usemtl Color_13
+f 71 82 72
+usemtl Color_60
+f 60 71 61
+usemtl Color_6
+f 82 83 72
+usemtl Color_39
+f 61 71 72
+usemtl Color_68
+f 60 59 70
+usemtl Color_5
+f 84 73 83
+usemtl Color_87
+f 58 69 59
+usemtl Color_130
+f 58 57 68
+usemtl Color_193
+f 78 68 67
+usemtl Color_128
+f 78 79 68
+usemtl Color_17
+f 71 70 81
+usemtl Color_45
+f 71 60 70
+usemtl Color_36
+f 69 79 80
+usemtl Color_143
+f 78 89 79
+usemtl Color_72
+f 89 90 79
+usemtl Color_85
+f 89 100 90
+usemtl Color_31
+f 111 101 100
