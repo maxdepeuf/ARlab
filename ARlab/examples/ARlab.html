@@ -160,14 +160,12 @@
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////
 				
-				loaderMTL =	new MTLLoader();
-				.setPath('./models/obj/FVE/')
-				.load( 'Test.mtl', function ( materials ){
+				const loaderMTL =	new MTLLoader();
+				loaderMTL.load( './models/obj/FVE/Test.mtl', function ( materials ) {
 				materials.preload();
-				loaderOBJ =new HREE.OBJLoader()
-							.setMaterials(materials)
-							.setPath( './models/obj/FVE/' )
-							.load( 'Test.obj', function ( group ) {
+				const loaderOBJ =new HREE.OBJLoader();
+							loaderOBJ.setMaterials(materials)
+							loaderOBJ.load( './models/obj/FVE/Test.obj', function ( group ) {
 								mesh0 = group.children[0];
 					mesh0.material.side = THREE.DoubleSide;
 					mesh0.position.y = 0;
