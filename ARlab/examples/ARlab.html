@@ -159,21 +159,19 @@
 	})
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////
-				const manager = new THREE.LoadingManager();
-				manager.addHandler( /\.dds$/i, new DDSLoader() );
-
-				const loader2 = new MTLLoader(manager);
-				loader2.load( './models/obj/FVE/Test.mtl', function ( materials ){
-				
-				const loader3 = new OBJLoader( manager )
-							loader3.setMaterials( materials )
-							loader3.setMaterials( materials )
-							loader3.setPath( 'models/obj/FVE/' )
-							loader3.load( 'Test.obj', function ( object ) {
-								object.scale.set( 1, 1, 1 );
-								object.rotation.set( - Math.PI / 2, 0, - Math.PI );
-								object.position.set( 0.5, 0.25, -0.5 );
-								arWorldRoot.add( object );
+				new THREE.MTLLoader();
+				.setPath('models/obj/FVE/')
+				.load( 'Test.mtl', function ( materials ){
+				materials.preload();
+				new THREE.OBJLoader()
+							.setMaterials(materials)
+							.setPath( 'models/obj/FVE/' )
+							.load( 'Test.obj', function ( group ) {
+								mesh0 = group.children[0];
+					mesh0.material.side = THREE.DoubleSide;
+					mesh0.position.y = 0;
+					mesh0.scale.set(1,1,1);
+					arWorldRoot.add(mesh0);
 								});
 				});
 /////////////////////////////////////////////////////////////////////////////////////
