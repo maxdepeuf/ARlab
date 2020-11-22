@@ -140,12 +140,8 @@
 
 	// add a torus knot
 	var geometry	= new THREE.BoxGeometry(1,1,1);
-	var material	= new THREE.MeshNormalMaterial({
-		transparent : true,
-		opacity: 0.5,
-		side: THREE.DoubleSide
-	});
-	
+	var material	= new THREE.MeshNormalMaterial({transparent : true,opacity: 0.5,side: THREE.DoubleSide});
+	var material    = new THREE.MeshBasicMaterial({color: 0xcccccc, transparent:true, opacity:0.5});
 	var mesh	= new THREE.Mesh( geometry, material );
 	mesh.position.y	= geometry.parameters.height/2
 	arWorldRoot.add( mesh );
@@ -163,19 +159,32 @@
 	})
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////
-				const loader = new STLLoader();
-				loader.load( './models/stl/ascii/slotted_disk.stl', function ( geometry ) {
+								const ambientLight = new THREE.AmbientLight( 0xcccccc, 0.4 );
+				arWorldRoot.add( ambientLight );
 
-					const material = new THREE.MeshPhongMaterial( { color: 0xff5533, specular: 0x111111, shininess: 200 } );
-					const mesh = new THREE.Mesh( geometry, material );
+				const pointLight = new THREE.PointLight( 0xffffff, 0.8 );
+				camera.add( pointLight );
+				arWorldRoot.add( camera );
+				
+				
+				const manager = new THREE.LoadingManager();
+				manager.addHandler( /\.dds$/i, new DDSLoader() );
 
-					mesh.position.set( 0, - 0.25, 0.6 );
-					mesh.rotation.set( 0, - Math.PI / 2, 0 );
-					mesh.scale.set( 0.5, 0.5, 0.5 );
-
-					arWorldRoot.add( mesh );
-
-				} );
+				const loader2 = new MTLLoader(manager);
+				loader3.setPath( 'models/obj/FVE/' )
+				loader2.load( 'Test.mtl', function ( materials ){
+				
+				const loader3 = new OBJLoader( manager )
+							loader3.setMaterials( materials )
+							loader3.setMaterials( materials )
+							loader3.setPath( 'models/obj/FVE/' )
+							loader3.load( 'Test.obj', function ( object ) {
+								object.scale.set( 1, 1, 1 );
+								object.rotation.set( - Math.PI / 2, 0, - Math.PI );
+								object.position.set( 0.5, 0.25, -0.5 );
+								arWorldRoot.add( object );
+								});
+				});
 /////////////////////////////////////////////////////////////////////////////////////
 	//		render the whole thing on the page
 	//////////////////////////////////////////////////////////////////////////////////
