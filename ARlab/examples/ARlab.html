@@ -167,11 +167,9 @@
 				const loaderOBJ =new OBJLoader();
 							loaderOBJ.setMaterials(materials)
 							loaderOBJ.load( './models/obj/FVE/Test.obj', function ( group ) {
-								var mesh0 = new group.children[0];
-					mesh0.material.side = THREE.DoubleSide;
-					mesh0.position.y = 0;
-					mesh0.scale.set(1,1,1);
-					arWorldRoot.add(mesh0);
+								group.material.side = THREE.DoubleSide;
+				
+					arWorldRoot.add(group);
 								});
 				});
 /////////////////////////////////////////////////////////////////////////////////////
