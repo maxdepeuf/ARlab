@@ -1,0 +1,1027 @@
+newmtl Color_0
+ Kd 0 0 0
+
+newmtl Color_1
+ Kd 0 0 0.51563 
+ d 0.4
+
+newmtl Color_2
+ Kd 0 0 0.53125 
+ d 0.4
+
+newmtl Color_3
+ Kd 0 0 0.54688 
+ d 0.4
+
+newmtl Color_4
+ Kd 0 0 0.5625 
+ d 0.4
+
+newmtl Color_5
+ Kd 0 0 0.57813 
+ d 0.4
+
+newmtl Color_6
+ Kd 0 0 0.59375 
+ d 0.4
+
+newmtl Color_7
+ Kd 0 0 0.60938 
+ d 0.4
+
+newmtl Color_8
+ Kd 0 0 0.625 
+ d 0.4
+
+newmtl Color_9
+ Kd 0 0 0.64063 
+ d 0.4
+
+newmtl Color_10
+ Kd 0 0 0.65625 
+ d 0.4
+
+newmtl Color_11
+ Kd 0 0 0.67188 
+ d 0.4
+
+newmtl Color_12
+ Kd 0 0 0.6875 
+ d 0.4
+
+newmtl Color_13
+ Kd 0 0 0.70313 
+ d 0.4
+
+newmtl Color_14
+ Kd 0 0 0.71875 
+ d 0.4
+
+newmtl Color_15
+ Kd 0 0 0.73438 
+ d 0.4
+
+newmtl Color_16
+ Kd 0 0 0.75 
+ d 0.4
+
+newmtl Color_17
+ Kd 0 0 0.76563 
+ d 0.4
+
+newmtl Color_18
+ Kd 0 0 0.78125 
+ d 0.4
+
+newmtl Color_19
+ Kd 0 0 0.79688 
+ d 0.4
+
+newmtl Color_20
+ Kd 0 0 0.8125 
+ d 0.4
+
+newmtl Color_21
+ Kd 0 0 0.82813 
+ d 0.4
+
+newmtl Color_22
+ Kd 0 0 0.84375 
+ d 0.4
+
+newmtl Color_23
+ Kd 0 0 0.85938 
+ d 0.4
+
+newmtl Color_24
+ Kd 0 0 0.875 
+ d 0.4
+
+newmtl Color_25
+ Kd 0 0 0.89063 
+ d 0.4
+
+newmtl Color_26
+ Kd 0 0 0.90625 
+ d 0.4
+
+newmtl Color_27
+ Kd 0 0 0.92188 
+ d 0.4
+
+newmtl Color_28
+ Kd 0 0 0.9375 
+ d 0.4
+
+newmtl Color_29
+ Kd 0 0 0.95313 
+ d 0.4
+
+newmtl Color_30
+ Kd 0 0 0.96875 
+ d 0.4
+
+newmtl Color_31
+ Kd 0 0 0.98438 
+ d 0.4
+
+newmtl Color_32
+ Kd 0 0 1 
+ d 0.4
+
+newmtl Color_33
+ Kd 0 0.015625 1 
+ d 0.4
+
+newmtl Color_34
+ Kd 0 0.03125 1 
+ d 0.4
+
+newmtl Color_35
+ Kd 0 0.046875 1 
+ d 0.4
+
+newmtl Color_36
+ Kd 0 0.0625 1 
+ d 0.4
+
+newmtl Color_37
+ Kd 0 0.078125 1 
+ d 0.4
+
+newmtl Color_38
+ Kd 0 0.09375 1 
+ d 0.4
+
+newmtl Color_39
+ Kd 0 0.10938 1 
+ d 0.4
+
+newmtl Color_40
+ Kd 0 0.125 1 
+ d 0.4
+
+newmtl Color_41
+ Kd 0 0.14063 1 
+ d 0.4
+
+newmtl Color_42
+ Kd 0 0.15625 1 
+ d 0.4
+
+newmtl Color_43
+ Kd 0 0.17188 1 
+ d 0.4
+
+newmtl Color_44
+ Kd 0 0.1875 1 
+ d 0.4
+
+newmtl Color_45
+ Kd 0 0.20313 1 
+ d 0.4
+
+newmtl Color_46
+ Kd 0 0.21875 1 
+ d 0.4
+
+newmtl Color_47
+ Kd 0 0.23438 1 
+ d 0.4
+
+newmtl Color_48
+ Kd 0 0.25 1 
+ d 0.4
+
+newmtl Color_49
+ Kd 0 0.26563 1 
+ d 0.4
+
+newmtl Color_50
+ Kd 0 0.28125 1 
+ d 0.4
+
+newmtl Color_51
+ Kd 0 0.29688 1 
+ d 0.4
+
+newmtl Color_52
+ Kd 0 0.3125 1 
+ d 0.4
+
+newmtl Color_53
+ Kd 0 0.32813 1 
+ d 0.4
+
+newmtl Color_54
+ Kd 0 0.34375 1 
+ d 0.4
+
+newmtl Color_55
+ Kd 0 0.35938 1 
+ d 0.4
+
+newmtl Color_56
+ Kd 0 0.375 1 
+ d 0.4
+
+newmtl Color_57
+ Kd 0 0.39063 1 
+ d 0.4
+
+newmtl Color_58
+ Kd 0 0.40625 1 
+ d 0.4
+
+newmtl Color_59
+ Kd 0 0.42188 1 
+ d 0.4
+
+newmtl Color_60
+ Kd 0 0.4375 1 
+ d 0.4
+
+newmtl Color_61
+ Kd 0 0.45313 1 
+ d 0.4
+
+newmtl Color_62
+ Kd 0 0.46875 1 
+ d 0.4
+
+newmtl Color_63
+ Kd 0 0.48438 1 
+ d 0.4
+
+newmtl Color_64
+ Kd 0 0.5 1 
+ d 0.4
+
+newmtl Color_65
+ Kd 0 0.51563 1 
+ d 0.4
+
+newmtl Color_66
+ Kd 0 0.53125 1 
+ d 0.4
+
+newmtl Color_67
+ Kd 0 0.54688 1 
+ d 0.4
+
+newmtl Color_68
+ Kd 0 0.5625 1 
+ d 0.4
+
+newmtl Color_69
+ Kd 0 0.57813 1 
+ d 0.4
+
+newmtl Color_70
+ Kd 0 0.59375 1 
+ d 0.4
+
+newmtl Color_71
+ Kd 0 0.60938 1 
+ d 0.4
+
+newmtl Color_72
+ Kd 0 0.625 1 
+ d 0.4
+
+newmtl Color_73
+ Kd 0 0.64063 1 
+ d 0.4
+
+newmtl Color_74
+ Kd 0 0.65625 1 
+ d 0.4
+
+newmtl Color_75
+ Kd 0 0.67188 1 
+ d 0.4
+
+newmtl Color_76
+ Kd 0 0.6875 1 
+ d 0.4
+
+newmtl Color_77
+ Kd 0 0.70313 1 
+ d 0.4
+
+newmtl Color_78
+ Kd 0 0.71875 1 
+ d 0.4
+
+newmtl Color_79
+ Kd 0 0.73438 1 
+ d 0.4
+
+newmtl Color_80
+ Kd 0 0.75 1 
+ d 0.4
+
+newmtl Color_81
+ Kd 0 0.76563 1 
+ d 0.4
+
+newmtl Color_82
+ Kd 0 0.78125 1 
+ d 0.4
+
+newmtl Color_83
+ Kd 0 0.79688 1 
+ d 0.4
+
+newmtl Color_84
+ Kd 0 0.8125 1 
+ d 0.4
+
+newmtl Color_85
+ Kd 0 0.82813 1 
+ d 0.4
+
+newmtl Color_86
+ Kd 0 0.84375 1 
+ d 0.4
+
+newmtl Color_87
+ Kd 0 0.85938 1 
+ d 0.4
+
+newmtl Color_88
+ Kd 0 0.875 1 
+ d 0.4
+
+newmtl Color_89
+ Kd 0 0.89063 1 
+ d 0.4
+
+newmtl Color_90
+ Kd 0 0.90625 1 
+ d 0.4
+
+newmtl Color_91
+ Kd 0 0.92188 1 
+ d 0.4
+
+newmtl Color_92
+ Kd 0 0.9375 1 
+ d 0.4
+
+newmtl Color_93
+ Kd 0 0.95313 1 
+ d 0.4
+
+newmtl Color_94
+ Kd 0 0.96875 1 
+ d 0.4
+
+newmtl Color_95
+ Kd 0 0.98438 1 
+ d 0.4
+
+newmtl Color_96
+ Kd 0 1 1 
+ d 0.4
+
+newmtl Color_97
+ Kd 0.015625 1 0.98438 
+ d 0.4
+
+newmtl Color_98
+ Kd 0.03125 1 0.96875 
+ d 0.4
+
+newmtl Color_99
+ Kd 0.046875 1 0.95313 
+ d 0.4
+
+newmtl Color_100
+ Kd 0.0625 1 0.9375 
+ d 0.4
+
+newmtl Color_101
+ Kd 0.078125 1 0.92188 
+ d 0.4
+
+newmtl Color_102
+ Kd 0.09375 1 0.90625 
+ d 0.4
+
+newmtl Color_103
+ Kd 0.10938 1 0.89063 
+ d 0.4
+
+newmtl Color_104
+ Kd 0.125 1 0.875 
+ d 0.4
+
+newmtl Color_105
+ Kd 0.14063 1 0.85938 
+ d 0.4
+
+newmtl Color_106
+ Kd 0.15625 1 0.84375 
+ d 0.4
+
+newmtl Color_107
+ Kd 0.17188 1 0.82813 
+ d 0.4
+
+newmtl Color_108
+ Kd 0.1875 1 0.8125 
+ d 0.4
+
+newmtl Color_109
+ Kd 0.20313 1 0.79688 
+ d 0.4
+
+newmtl Color_110
+ Kd 0.21875 1 0.78125 
+ d 0.4
+
+newmtl Color_111
+ Kd 0.23438 1 0.76563 
+ d 0.4
+
+newmtl Color_112
+ Kd 0.25 1 0.75 
+ d 0.4
+
+newmtl Color_113
+ Kd 0.26563 1 0.73438 
+ d 0.4
+
+newmtl Color_114
+ Kd 0.28125 1 0.71875 
+ d 0.4
+
+newmtl Color_115
+ Kd 0.29688 1 0.70313 
+ d 0.4
+
+newmtl Color_116
+ Kd 0.3125 1 0.6875 
+ d 0.4
+
+newmtl Color_117
+ Kd 0.32813 1 0.67188 
+ d 0.4
+
+newmtl Color_118
+ Kd 0.34375 1 0.65625 
+ d 0.4
+
+newmtl Color_119
+ Kd 0.35938 1 0.64063 
+ d 0.4
+
+newmtl Color_120
+ Kd 0.375 1 0.625 
+ d 0.4
+
+newmtl Color_121
+ Kd 0.39063 1 0.60938 
+ d 0.4
+
+newmtl Color_122
+ Kd 0.40625 1 0.59375 
+ d 0.4
+
+newmtl Color_123
+ Kd 0.42188 1 0.57813 
+ d 0.4
+
+newmtl Color_124
+ Kd 0.4375 1 0.5625 
+ d 0.4
+
+newmtl Color_125
+ Kd 0.45313 1 0.54688 
+ d 0.4
+
+newmtl Color_126
+ Kd 0.46875 1 0.53125 
+ d 0.4
+
+newmtl Color_127
+ Kd 0.48438 1 0.51563 
+ d 0.4
+
+newmtl Color_128
+ Kd 0.5 1 0.5 
+ d 0.4
+
+newmtl Color_129
+ Kd 0.51563 1 0.48438 
+ d 0.4
+
+newmtl Color_130
+ Kd 0.53125 1 0.46875 
+ d 0.4
+
+newmtl Color_131
+ Kd 0.54688 1 0.45313 
+ d 0.4
+
+newmtl Color_132
+ Kd 0.5625 1 0.4375 
+ d 0.4
+
+newmtl Color_133
+ Kd 0.57813 1 0.42188 
+ d 0.4
+
+newmtl Color_134
+ Kd 0.59375 1 0.40625 
+ d 0.4
+
+newmtl Color_135
+ Kd 0.60938 1 0.39063 
+ d 0.4
+
+newmtl Color_136
+ Kd 0.625 1 0.375 
+ d 0.4
+
+newmtl Color_137
+ Kd 0.64063 1 0.35938 
+ d 0.4
+
+newmtl Color_138
+ Kd 0.65625 1 0.34375 
+ d 0.4
+
+newmtl Color_139
+ Kd 0.67188 1 0.32813 
+ d 0.4
+
+newmtl Color_140
+ Kd 0.6875 1 0.3125 
+ d 0.4
+
+newmtl Color_141
+ Kd 0.70313 1 0.29688 
+ d 0.4
+
+newmtl Color_142
+ Kd 0.71875 1 0.28125 
+ d 0.4
+
+newmtl Color_143
+ Kd 0.73438 1 0.26563 
+ d 0.4
+
+newmtl Color_144
+ Kd 0.75 1 0.25 
+ d 0.4
+
+newmtl Color_145
+ Kd 0.76563 1 0.23438 
+ d 0.4
+
+newmtl Color_146
+ Kd 0.78125 1 0.21875 
+ d 0.4
+
+newmtl Color_147
+ Kd 0.79688 1 0.20313 
+ d 0.4
+
+newmtl Color_148
+ Kd 0.8125 1 0.1875 
+ d 0.4
+
+newmtl Color_149
+ Kd 0.82813 1 0.17188 
+ d 0.4
+
+newmtl Color_150
+ Kd 0.84375 1 0.15625 
+ d 0.4
+
+newmtl Color_151
+ Kd 0.85938 1 0.14063 
+ d 0.4
+
+newmtl Color_152
+ Kd 0.875 1 0.125 
+ d 0.4
+
+newmtl Color_153
+ Kd 0.89063 1 0.10938 
+ d 0.4
+
+newmtl Color_154
+ Kd 0.90625 1 0.09375 
+ d 0.4
+
+newmtl Color_155
+ Kd 0.92188 1 0.078125 
+ d 0.4
+
+newmtl Color_156
+ Kd 0.9375 1 0.0625 
+ d 0.4
+
+newmtl Color_157
+ Kd 0.95313 1 0.046875 
+ d 0.4
+
+newmtl Color_158
+ Kd 0.96875 1 0.03125 
+ d 0.4
+
+newmtl Color_159
+ Kd 0.98438 1 0.015625 
+ d 0.4
+
+newmtl Color_160
+ Kd 1 1 0 
+ d 0.4
+
+newmtl Color_161
+ Kd 1 0.98438 0 
+ d 0.4
+
+newmtl Color_162
+ Kd 1 0.96875 0 
+ d 0.4
+
+newmtl Color_163
+ Kd 1 0.95313 0 
+ d 0.4
+
+newmtl Color_164
+ Kd 1 0.9375 0 
+ d 0.4
+
+newmtl Color_165
+ Kd 1 0.92188 0 
+ d 0.4
+
+newmtl Color_166
+ Kd 1 0.90625 0 
+ d 0.4
+
+newmtl Color_167
+ Kd 1 0.89063 0 
+ d 0.4
+
+newmtl Color_168
+ Kd 1 0.875 0 
+ d 0.4
+
+newmtl Color_169
+ Kd 1 0.85938 0 
+ d 0.4
+
+newmtl Color_170
+ Kd 1 0.84375 0 
+ d 0.4
+
+newmtl Color_171
+ Kd 1 0.82813 0 
+ d 0.4
+
+newmtl Color_172
+ Kd 1 0.8125 0 
+ d 0.4
+
+newmtl Color_173
+ Kd 1 0.79688 0 
+ d 0.4
+
+newmtl Color_174
+ Kd 1 0.78125 0 
+ d 0.4
+
+newmtl Color_175
+ Kd 1 0.76563 0 
+ d 0.4
+
+newmtl Color_176
+ Kd 1 0.75 0 
+ d 0.4
+
+newmtl Color_177
+ Kd 1 0.73438 0 
+ d 0.4
+
+newmtl Color_178
+ Kd 1 0.71875 0 
+ d 0.4
+
+newmtl Color_179
+ Kd 1 0.70313 0 
+ d 0.4
+
+newmtl Color_180
+ Kd 1 0.6875 0 
+ d 0.4
+
+newmtl Color_181
+ Kd 1 0.67188 0 
+ d 0.4
+
+newmtl Color_182
+ Kd 1 0.65625 0 
+ d 0.4
+
+newmtl Color_183
+ Kd 1 0.64063 0 
+ d 0.4
+
+newmtl Color_184
+ Kd 1 0.625 0 
+ d 0.4
+
+newmtl Color_185
+ Kd 1 0.60938 0 
+ d 0.4
+
+newmtl Color_186
+ Kd 1 0.59375 0 
+ d 0.4
+
+newmtl Color_187
+ Kd 1 0.57813 0 
+ d 0.4
+
+newmtl Color_188
+ Kd 1 0.5625 0 
+ d 0.4
+
+newmtl Color_189
+ Kd 1 0.54688 0 
+ d 0.4
+
+newmtl Color_190
+ Kd 1 0.53125 0 
+ d 0.4
+
+newmtl Color_191
+ Kd 1 0.51563 0 
+ d 0.4
+
+newmtl Color_192
+ Kd 1 0.5 0 
+ d 0.4
+
+newmtl Color_193
+ Kd 1 0.48438 0 
+ d 0.4
+
+newmtl Color_194
+ Kd 1 0.46875 0 
+ d 0.4
+
+newmtl Color_195
+ Kd 1 0.45313 0 
+ d 0.4
+
+newmtl Color_196
+ Kd 1 0.4375 0 
+ d 0.4
+
+newmtl Color_197
+ Kd 1 0.42188 0 
+ d 0.4
+
+newmtl Color_198
+ Kd 1 0.40625 0 
+ d 0.4
+
+newmtl Color_199
+ Kd 1 0.39063 0 
+ d 0.4
+
+newmtl Color_200
+ Kd 1 0.375 0 
+ d 0.4
+
+newmtl Color_201
+ Kd 1 0.35938 0 
+ d 0.4
+
+newmtl Color_202
+ Kd 1 0.34375 0 
+ d 0.4
+
+newmtl Color_203
+ Kd 1 0.32813 0 
+ d 0.4
+
+newmtl Color_204
+ Kd 1 0.3125 0 
+ d 0.4
+
+newmtl Color_205
+ Kd 1 0.29688 0 
+ d 0.4
+
+newmtl Color_206
+ Kd 1 0.28125 0 
+ d 0.4
+
+newmtl Color_207
+ Kd 1 0.26563 0 
+ d 0.4
+
+newmtl Color_208
+ Kd 1 0.25 0 
+ d 0.4
+
+newmtl Color_209
+ Kd 1 0.23438 0 
+ d 0.4
+
+newmtl Color_210
+ Kd 1 0.21875 0 
+ d 0.4
+
+newmtl Color_211
+ Kd 1 0.20313 0 
+ d 0.4
+
+newmtl Color_212
+ Kd 1 0.1875 0 
+ d 0.4
+
+newmtl Color_213
+ Kd 1 0.17188 0 
+ d 0.4
+
+newmtl Color_214
+ Kd 1 0.15625 0 
+ d 0.4
+
+newmtl Color_215
+ Kd 1 0.14063 0 
+ d 0.4
+
+newmtl Color_216
+ Kd 1 0.125 0 
+ d 0.4
+
+newmtl Color_217
+ Kd 1 0.10938 0 
+ d 0.4
+
+newmtl Color_218
+ Kd 1 0.09375 0 
+ d 0.4
+
+newmtl Color_219
+ Kd 1 0.078125 0 
+ d 0.4
+
+newmtl Color_220
+ Kd 1 0.0625 0 
+ d 0.4
+
+newmtl Color_221
+ Kd 1 0.046875 0 
+ d 0.4
+
+newmtl Color_222
+ Kd 1 0.03125 0 
+ d 0.4
+
+newmtl Color_223
+ Kd 1 0.015625 0 
+ d 0.4
+
+newmtl Color_224
+ Kd 1 0 0 
+ d 0.4
+
+newmtl Color_225
+ Kd 0.98438 0 0 
+ d 0.4
+
+newmtl Color_226
+ Kd 0.96875 0 0 
+ d 0.4
+
+newmtl Color_227
+ Kd 0.95313 0 0 
+ d 0.4
+
+newmtl Color_228
+ Kd 0.9375 0 0 
+ d 0.4
+
+newmtl Color_229
+ Kd 0.92188 0 0 
+ d 0.4
+
+newmtl Color_230
+ Kd 0.90625 0 0 
+ d 0.4
+
+newmtl Color_231
+ Kd 0.89063 0 0 
+ d 0.4
+
+newmtl Color_232
+ Kd 0.875 0 0 
+ d 0.4
+
+newmtl Color_233
+ Kd 0.85938 0 0 
+ d 0.4
+
+newmtl Color_234
+ Kd 0.84375 0 0 
+ d 0.4
+
+newmtl Color_235
+ Kd 0.82813 0 0 
+ d 0.4
+
+newmtl Color_236
+ Kd 0.8125 0 0 
+ d 0.4
+
+newmtl Color_237
+ Kd 0.79688 0 0 
+ d 0.4
+
+newmtl Color_238
+ Kd 0.78125 0 0 
+ d 0.4
+
+newmtl Color_239
+ Kd 0.76563 0 0 
+ d 0.4
+
+newmtl Color_240
+ Kd 0.75 0 0 
+ d 0.4
+
+newmtl Color_241
+ Kd 0.73438 0 0 
+ d 0.4
+
+newmtl Color_242
+ Kd 0.71875 0 0 
+ d 0.4
+
+newmtl Color_243
+ Kd 0.70313 0 0 
+ d 0.4
+
+newmtl Color_244
+ Kd 0.6875 0 0 
+ d 0.4
+
+newmtl Color_245
+ Kd 0.67188 0 0 
+ d 0.4
+
+newmtl Color_246
+ Kd 0.65625 0 0 
+ d 0.4
+
+newmtl Color_247
+ Kd 0.64063 0 0 
+ d 0.4
+
+newmtl Color_248
+ Kd 0.625 0 0 
+ d 0.4
+
+newmtl Color_249
+ Kd 0.60938 0 0 
+ d 0.4
+
+newmtl Color_250
+ Kd 0.59375 0 0 
+ d 0.4
+
+newmtl Color_251
+ Kd 0.57813 0 0 
+ d 0.4
+
+newmtl Color_252
+ Kd 0.5625 0 0 
+ d 0.4
+
+newmtl Color_253
+ Kd 0.54688 0 0 
+ d 0.4
+
+newmtl Color_254
+ Kd 0.53125 0 0 
+ d 0.4
+
+newmtl Color_255
+ Kd 0.51563 0 0 
+ d 0.4
+
+newmtl Color_256
+ Kd 0.5 0 0 
+ d 0.4
+
