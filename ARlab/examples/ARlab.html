@@ -155,12 +155,12 @@
 /////////////////////////////////////////////////////////////////////////////////////
 				
 				const loaderMTL =	new MTLLoader();
-				loaderMTL.load( './models/obj/FVE/Test.mtl', function ( materials ) {
+				loaderMTL.load( './models/obj/FVE/Test_1.mtl', function ( materials ) {
 				materials.preload();
 				//materials.setMaterialOptions({side: THREE.DoubleSide});
 				const loaderOBJ =new OBJLoader();
 							loaderOBJ.setMaterials(materials)
-							loaderOBJ.load( './models/obj/FVE/Test.obj', function ( group ) {
+							loaderOBJ.load( './models/obj/FVE/Test_1.obj', function ( group ) {
 								group.scale.set( 1, 1, 1 );
 								//group.material.side = THREE.DoubleSide;
 								group.rotation.set( - Math.PI / 2, 0, - Math.PI );
