@@ -42,7 +42,7 @@
 
 	// init scene and camera
 	var scene	= new THREE.Scene();
-	let ambientLight = new THREE.AmbientLight( 0xcccccc, 1.0 );
+	let ambientLight = new THREE.AmbientLight( 0xffffff, 1.0 );
 	scene.add( ambientLight );
 	//////////////////////////////////////////////////////////////////////////////////
 	//		Initialize a basic camera
@@ -164,11 +164,9 @@
 						arWorldRoot.add( pivot );
 						pivot.add( group );
 						
-						//group.position.set( 4, - 3, - 5 ); // the negative of the group's center
-						
-												onRenderFcts.push(function(){
-		pivot.rotation.y += 0.025
-	})
+												//onRenderFcts.push(function(){
+												//pivot.rotation.y += 0.025
+												//})
 								});
 				});
 
