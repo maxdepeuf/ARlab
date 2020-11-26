@@ -27,10 +27,7 @@
 	//////////////////////////////////////////////////////////////////////////////////
 
 	// init renderer
-	var renderer	= new THREE.WebGLRenderer({
-		// antialias	: true,
-		alpha: true
-	});
+	var renderer	= new THREE.WebGLRenderer({antialias: true, alpha: true});
 	renderer.setClearColor(new THREE.Color('lightgrey'), 0)
 	renderer.setPixelRatio( window.devicePixelRatio );
 	renderer.setSize( window.innerWidth, window.innerHeight );
@@ -56,7 +53,6 @@
 
 	const pointLight = new THREE.PointLight( 0xffffff, 1 );
 	camera.add( pointLight );
-////////////////////////////////////////////////////
 
 
 	////////////////////////////////////////////////////////////////////////////////
