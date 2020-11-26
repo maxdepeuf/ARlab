@@ -58,8 +58,28 @@
 ////////////////////////////////////////////////////
 				var controls = new OrbitControls( camera, renderer.domElement );
 				controls.addEventListener( 'change', render );
+				controls.minDistance = 50;
+				controls.maxDistance = 400;
+				controls.enablePan = true;
+				controls.update();
 				////////////////////////////////////
+				const manager = new THREE.LoadingManager();
 
+				manager.onLoad = function () {
+
+					const aabb = new THREE.Box3().setFromObject( object );
+					const center = aabb.getCenter( new THREE.Vector3() );
+
+					object.position.x += ( object.position.x - center.x );
+					object.position.y += ( object.position.y - center.y );
+					object.position.z += ( object.position.z - center.z );
+
+					controls.reset();
+
+					scene.add( object );
+					render();
+
+				};
 
 	////////////////////////////////////////////////////////////////////////////////
 	//          handle arToolkitSource
