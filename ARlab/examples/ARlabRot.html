@@ -63,7 +63,23 @@
 	controls.update();
 	render();
 	
-	
+					const manager = new THREE.LoadingManager();
+
+				manager.onLoad = function () {
+
+					const aabb = new THREE.Box3().setFromObject( group );
+					const center = aabb.getCenter( new THREE.Vector3() );
+
+					group.position.x += ( group.position.x - center.x );
+					group.position.y += ( group.position.y - center.y );
+					group.position.z += ( group.position.z - center.z );
+
+					controls.reset();
+
+					scene.add( group );
+					render();
+
+				};
 	//////////////////////////////////////////////////////////////////////////////////
 
 
