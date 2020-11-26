@@ -25,6 +25,7 @@
 	//////////////////////////////////////////////////////////////////////////////////
 	//		Init
 	//////////////////////////////////////////////////////////////////////////////////
+let controls, object
 
 	// init renderer
 	var renderer	= new THREE.WebGLRenderer({antialias: true,alpha: true});
@@ -55,7 +56,7 @@
 	const pointLight = new THREE.PointLight( 0xffffff, 1 );
 	camera.add(pointLight);
 	
-	var controls = new OrbitControls( camera, renderer.domElement );
+	controls = new OrbitControls( camera, renderer.domElement );
 	controls.addEventListener( 'change', render );
 	//controls.minDistance = 50;
 	//controls.maxDistance = 400;
@@ -201,7 +202,7 @@
 												//onRenderFcts.push(function(){
 												//pivot.rotation.y += 0.025
 												//})
-										object = group;				
+													
 								});
 						
 				});
