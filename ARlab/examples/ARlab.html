@@ -8,6 +8,8 @@
 <script src="../build/ar.js"></script>
 <script>THREEx.ArToolkitContext.baseURL = '../'</script>
 
+
+<!-- Text -->
 <body style='margin : 0px; overflow: hidden; font-family: Monospace;'><div style='position: absolute; top: 10px; width:100%; text-align: center; z-index: 1;'>
 	MOREL - BOWEN - 3D AR
 	<br/>
@@ -16,7 +18,6 @@
 <script type="module">
 
 			import * as THREE from '../build/three.module.js';
-
 			import { DDSLoader } from './jsm/loaders/DDSLoader.js';
 			import { OrbitControls } from './jsm/controls/OrbitControls.js';
 			import { MTLLoader } from './jsm/loaders/MTLLoader.js';
@@ -56,30 +57,7 @@
 		const pointLight = new THREE.PointLight( 0xffffff, 1 );
 				camera.add( pointLight );
 ////////////////////////////////////////////////////
-				var controls = new OrbitControls( camera, renderer.domElement );
-				controls.addEventListener( 'change', render );
-				controls.minDistance = 50;
-				controls.maxDistance = 400;
-				controls.enablePan = true;
-				controls.update();
-				////////////////////////////////////
-				const manager = new THREE.LoadingManager();
 
-				manager.onLoad = function () {
-
-					const aabb = new THREE.Box3().setFromObject( object );
-					const center = aabb.getCenter( new THREE.Vector3() );
-
-					object.position.x += ( object.position.x - center.x );
-					object.position.y += ( object.position.y - center.y );
-					object.position.z += ( object.position.z - center.z );
-
-					controls.reset();
-
-					scene.add( object );
-					render();
-
-				};
 
 	////////////////////////////////////////////////////////////////////////////////
 	//          handle arToolkitSource
@@ -217,11 +195,7 @@
 		//stats.update();
 	})
 	
-	function render() {
 
-				renderer.render( scene, camera );
-
-			}
 	// run the rendering loop
 	var lastTimeMsec= null
 	requestAnimationFrame(function animate(nowMsec){
