@@ -59,7 +59,7 @@
 				camera.add( pointLight );
 ////////////////////////////////////////////////////
 				var controls = new OrbitControls( camera, renderer.domElement );
-				controls.addEventListener( 'change', render );
+				controls.addEventListener( 'change', renderer );
 				controls.minDistance = 50;
 				controls.maxDistance = 400;
 				controls.enablePan = true;
@@ -200,7 +200,7 @@
 						var pivot = new THREE.Group();
 						arWorldRoot.add( pivot );
 						pivot.add( group );
-						object = group;
+
 						
 												//onRenderFcts.push(function(){
 												//pivot.rotation.y += 0.025
@@ -220,11 +220,7 @@
 		//stats.update();
 	})
 	
-	function render() {
 
-				renderer.render( scene, camera );
-
-			}
 	// run the rendering loop
 	var lastTimeMsec= null
 	requestAnimationFrame(function animate(nowMsec){
