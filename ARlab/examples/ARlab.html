@@ -160,7 +160,7 @@ controls.update();
 				const loaderMTL =	new MTLLoader();
 				loaderMTL.load( './models/obj/FVE/pvtComp.mtl', function ( materials ) {
 				materials.preload();
-				//materials.setMaterialOptions({side: THREE.DoubleSide});
+				materials.setMaterialOptions({side: THREE.DoubleSide});
 				const loaderOBJ =new OBJLoader();
 							loaderOBJ.setMaterials(materials)
 							loaderOBJ.load( './models/obj/FVE/pvtComp.obj', function ( group ) {
