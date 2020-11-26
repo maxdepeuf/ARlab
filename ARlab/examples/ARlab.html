@@ -135,7 +135,7 @@
 	scene.add(smoothedRoot)
 	var smoothedControls = new THREEx.ArSmoothedControls(smoothedRoot, {
 		lerpPosition: 0.4,
-		lerpQuaternion: 1,
+		lerpQuaternion: 0.2,//0.3
 		lerpScale: 1,
 	})
 	onRenderFcts.push(function(delta){
