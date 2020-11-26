@@ -59,26 +59,9 @@
 	controls.addEventListener( 'change', render );
 	//controls.minDistance = 50;
 	//controls.maxDistance = 400;
-	controls.enablePan = true;
-	controls.update();
-	
-					const manager = new THREE.LoadingManager();
+	//controls.enablePan = true;
+	//controls.update();
 
-				manager.onLoad = function () {
-
-					const aabb = new THREE.Box3().setFromObject( group );
-					const center = aabb.getCenter( new THREE.Vector3() );
-
-					group.position.x += ( group.position.x - center.x );
-					group.position.y += ( group.position.y - center.y );
-					group.position.z += ( group.position.z - center.z );
-
-					controls.reset();
-
-					scene.add( group );
-					render();
-
-				};
 	//////////////////////////////////////////////////////////////////////////////////
 
 
