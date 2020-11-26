@@ -56,7 +56,7 @@
 		const pointLight = new THREE.PointLight( 0xffffff, 1 );
 				camera.add( pointLight );
 ////////////////////////////////////////////////////
-				controls = new OrbitControls( camera, renderer.domElement );
+				var controls = new OrbitControls( camera, renderer.domElement );
 				controls.addEventListener( 'change', render );
 				////////////////////////////////////
 
