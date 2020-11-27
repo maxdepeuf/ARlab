@@ -163,12 +163,12 @@ controls.update();
 			var loaderMTL =	new MTLLoader();
 			loaderMTL.setMaterialOptions({side: THREE.DoubleSide})
 
-				loaderMTL.load( './models/obj/FVE/pvtComp.mtl', function ( materials ) {
+				loaderMTL.load( './models/obj/FVE/pvt.mtl', function ( materials ) {
 				materials.preload();
 				//materials.setMaterialOptions({side: THREE.DoubleSide});
 				var loaderOBJ =new OBJLoader();
 							loaderOBJ.setMaterials(materials)
-							loaderOBJ.load( './models/obj/FVE/pvtComp.obj', function ( group ) {
+							loaderOBJ.load( './models/obj/FVE/pvt.obj', function ( group ) {
 								group.scale.set( 1, 1, 1 );
 								//group.material.side = THREE.DoubleSide;
 								group.rotation.set( - Math.PI / 2, 0, - Math.PI );
