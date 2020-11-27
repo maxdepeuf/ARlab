@@ -22,13 +22,15 @@
 			import { OrbitControls } from './jsm/controls/OrbitControls.js';
 			import { MTLLoader } from './jsm/loaders/MTLLoader.js';
 			import { OBJLoader } from './jsm/loaders/OBJLoader.js';
+			import { OBJLoader2} from './jsm/loaders/OBJLoader2.js';
+			import {MtlObjBridge} from './jsm/loaders/obj2/bridge/MtlObjBridge.js';
 	//////////////////////////////////////////////////////////////////////////////////
 	//		Init
 	//////////////////////////////////////////////////////////////////////////////////
 
 	// init renderer
 	var renderer	= new THREE.WebGLRenderer({antialias: true, alpha: true});
-	renderer.setClearColor(new THREE.Color('lightgrey'), 0)
+	//renderer.setClearColor(new THREE.Color('lightgrey'), 0)
 	renderer.setPixelRatio( window.devicePixelRatio );
 	renderer.setSize( window.innerWidth, window.innerHeight );
 	renderer.domElement.style.position = 'absolute'
@@ -49,12 +51,12 @@
 		
 	// Create a camera
 	var camera = new THREE.Camera();
-	camera.up.set( 0, 0, 1 );
 	scene.add(camera);
 
 	const pointLight = new THREE.PointLight( 0xffffff, 1 );
-	camera.add( pointLight );
-
+	////camera.add( pointLight );
+const controls = new OrbitControls( camera, renderer.domElement );
+controls.update();
 
 	////////////////////////////////////////////////////////////////////////////////
 	//          handle arToolkitSource
@@ -151,25 +153,30 @@
 	var material    = new THREE.MeshBasicMaterial({color: 0xcccccc, transparent:true, opacity:0.75});
 	var mesh	= new THREE.Mesh( geometry, material );
 	mesh.position.y	= geometry.parameters.height/2
-	arWorldRoot.add( mesh );
+	//arWorldRoot.add( mesh );
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////
-				
-				const loaderMTL =	new MTLLoader();
-				loaderMTL.load( './models/obj/FVE/Test_1.mtl', function ( materials ) {
+
+///////////////////			
+			var loaderMTL =	new MTLLoader();
+			loaderMTL.setMaterialOptions({side: THREE.DoubleSide})
+
+				loaderMTL.load( './models/obj/FVE/pvt.mtl', function ( materials ) {
 				materials.preload();
 				//materials.setMaterialOptions({side: THREE.DoubleSide});
-				const loaderOBJ =new OBJLoader();
+				var loaderOBJ =new OBJLoader();
 							loaderOBJ.setMaterials(materials)
-							loaderOBJ.load( './models/obj/FVE/Test_1.obj', function ( group ) {
+							loaderOBJ.load( './models/obj/FVE/pvt.obj', function ( group ) {
 								group.scale.set( 1, 1, 1 );
 								//group.material.side = THREE.DoubleSide;
 								group.rotation.set( - Math.PI / 2, 0, - Math.PI );
 								group.position.set( 0.5, 0, -0.5 );
 								arWorldRoot.add(group)
-								
+								var controls = new OrbitControls( camera, renderer.domElement );
+								controls.enablePan = false;
+								controls.update();
 						var pivot = new THREE.Group();
 						arWorldRoot.add( pivot );
 						pivot.add( group );
