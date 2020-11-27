@@ -150,10 +150,10 @@ controls.update();
 
 	var geometry	= new THREE.BoxGeometry(1,1,1);
 	//var material	= new THREE.MeshNormalMaterial({transparent : true,opacity: 0.5,side: THREE.DoubleSide});
-	var material    = new THREE.MeshBasicMaterial({color: 0xcccccc, transparent:true, opacity:0.75});
+	var material    = new THREE.MeshBasicMaterial({color: 0xcccccc, transparent:true, opacity:0.5});
 	var mesh	= new THREE.Mesh( geometry, material );
 	mesh.position.y	= geometry.parameters.height/2
-	//arWorldRoot.add( mesh );
+	arWorldRoot.add( mesh );
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
