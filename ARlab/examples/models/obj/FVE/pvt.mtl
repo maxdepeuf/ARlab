@@ -29,7 +29,7 @@ newmtl c4
  Kd 0 0 5.625000e-01 
   Ks 0 0 5.625000e-01 
   Ka 0 0 5.625000e-01 
- illum 1 
+ illum 1  
  d 0.4
 
 newmtl c5
