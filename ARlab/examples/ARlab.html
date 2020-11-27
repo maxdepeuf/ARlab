@@ -56,7 +56,7 @@
 	const pointLight = new THREE.PointLight( 0xffffff, 1 );
 	////camera.add( pointLight );
 const controls = new OrbitControls( camera, renderer.domElement );
-controls.update();
+controls.screenSpacePanning = true;
 
 	////////////////////////////////////////////////////////////////////////////////
 	//          handle arToolkitSource
