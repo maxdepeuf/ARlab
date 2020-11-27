@@ -156,12 +156,15 @@ controls.update();
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////
-				
-				const loaderMTL =	new MTLLoader();
+
+///////////////////			
+			var loaderMTL =	new MTLLoader();
+			loaderMTL.setMaterialOptions({side: THREE.DoubleSide})
+
 				loaderMTL.load( './models/obj/FVE/pvtComp.mtl', function ( materials ) {
 				materials.preload();
 				//materials.setMaterialOptions({side: THREE.DoubleSide});
-				const loaderOBJ =new OBJLoader();
+				var loaderOBJ =new OBJLoader();
 							loaderOBJ.setMaterials(materials)
 							loaderOBJ.load( './models/obj/FVE/pvtComp.obj', function ( group ) {
 								group.scale.set( 1, 1, 1 );
