@@ -201,7 +201,7 @@ const controls = new OrbitControls( camera, renderer.domElement );
 	onRenderFcts.push(function(){
 	
 	
-	
+	controls.update();
 		renderer.render( scene, camera );
 		//stats.update();
 	})
