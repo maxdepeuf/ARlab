@@ -57,8 +57,7 @@
 	////camera.add( pointLight );
 
 
-		const controls = new OrbitControls( arWorldRoot, renderer.domElement );
-				controls.target.set( 0, 0, 0 );
+
 				
 
 	////////////////////////////////////////////////////////////////////////////////
@@ -184,7 +183,8 @@
 						
 						
 
-
+		const controls = new OrbitControls( arWorldRoot, renderer.domElement );
+				controls.target.set( 0, 0, 0 );
 
 				controls.update();
 
