@@ -57,12 +57,6 @@
 	////camera.add( pointLight );
 
 
-
-const controls = new OrbitControls( camera, renderer.domElement );
-				controls.target.set( 0, 0, 0 );
-				controls.update();
-
-
 	////////////////////////////////////////////////////////////////////////////////
 	//          handle arToolkitSource
 	////////////////////////////////////////////////////////////////////////////////
@@ -184,6 +178,14 @@ const controls = new OrbitControls( camera, renderer.domElement );
 						arWorldRoot.add( pivot );
 						pivot.add( group );
 						
+						
+
+
+const controls = new OrbitControls( arWorldRoot, renderer.domElement );
+				controls.target.set( 0, 0, 0 );
+				controls.update();
+
+						
 												//onRenderFcts.push(function(){
 												//pivot.rotation.y += 0.025
 												//})
@@ -198,10 +200,13 @@ const controls = new OrbitControls( camera, renderer.domElement );
 	//var stats = new Stats();
 	//document.body.appendChild( stats.dom );
 	// render the scene
+	
+	
+	
 	onRenderFcts.push(function(){
 	
 	
-	controls.update();
+	//controls.update();
 		renderer.render( scene, camera );
 		//stats.update();
 	})
