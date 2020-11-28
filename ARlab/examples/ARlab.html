@@ -27,7 +27,7 @@
 	//////////////////////////////////////////////////////////////////////////////////
 	//		Init
 	//////////////////////////////////////////////////////////////////////////////////
-   let controls
+   
 	// init renderer
 	var renderer	= new THREE.WebGLRenderer({antialias: true, alpha: true});
 	//renderer.setClearColor(new THREE.Color('lightgrey'), 0)
@@ -57,7 +57,7 @@
 	////camera.add( pointLight );
 
 
-controls = new OrbitControls( arWorldRoot, renderer.domElement );
+		const controls = new OrbitControls( arWorldRoot, renderer.domElement );
 				controls.target.set( 0, 0, 0 );
 				
 
